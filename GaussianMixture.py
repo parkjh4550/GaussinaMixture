@@ -1,5 +1,4 @@
-#ID : 2018221270
-#NAME : jonghoon park
+
 # find Best GaussianMixture Parameter
 # data - > [[train, validation], test]
 
