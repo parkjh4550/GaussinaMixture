@@ -1,5 +1,4 @@
-#ID : 2018221270
-#NAME : jonghoon park
+
 # find best SVM using Grid Search Method
 
 from sklearn.svm import SVC
