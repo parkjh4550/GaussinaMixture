@@ -1,5 +1,6 @@
 #ID : 2018221270
 #NAME : jonghoon park
+# find best SVM using Grid Search Method
 
 from sklearn.svm import SVC
 import numpy as np
@@ -53,6 +54,7 @@ def get_valdata(data, target, val_fold):
 
     return train_data, train_target, val_data, val_target
 
+#### Grid Search
 def get_param():
     # return parameters for grid search
     # kernel, C, degree, coef0, gamma
@@ -65,8 +67,6 @@ def get_param():
                         param_list.append([kernel, c, degree, coef0, gamma])
 
     return param_list
-
-
 
 
 def find_proper_parameter(data, target, num_mixture):
