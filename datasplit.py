@@ -1,5 +1,4 @@
-#ID : 2018221270
-#NAME : jonghoon park
+
 # divide dataset into given numbers of folds
 # some of folds are for training, some are validation, and test
 
