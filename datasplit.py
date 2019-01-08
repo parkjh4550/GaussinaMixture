@@ -1,6 +1,7 @@
 #ID : 2018221270
 #NAME : jonghoon park
-
+# divide dataset into given numbers of folds
+# some of folds are for training, some are validation, and test
 
 from sklearn import datasets
 from sklearn.utils import shuffle
@@ -70,6 +71,8 @@ def get_trainfold(data, target, fold_num, num_train, num_val):
         split_target.append(tmp_t)
 
     return split_data, split_target
+
+
 if __name__ == '__main__':
 
     fold_num = 3    #50 data for each folds( 150 / 3 )
